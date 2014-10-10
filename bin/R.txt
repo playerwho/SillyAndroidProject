@@ -341,6 +341,7 @@ int string abc_searchview_description_voice 0x7f0a0008
 int string abc_shareactionprovider_share_with 0x7f0a000c
 int string abc_shareactionprovider_share_with_application 0x7f0a000b
 int string app_name 0x7f0a000d
+int string counter 0x7f0a0011
 int string funText 0x7f0a000f
 int string labelText 0x7f0a000e
 int string sarcasmText 0x7f0a0010

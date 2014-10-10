@@ -13,7 +13,7 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         android:text="@string/labelText"
-        android:textColor="@color/green"
+        android:textColor="@color/white"
         android:textColorLink="@color/green" />
 
     <Button

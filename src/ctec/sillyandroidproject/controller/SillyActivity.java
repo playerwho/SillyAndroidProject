@@ -19,10 +19,10 @@ public class SillyActivity extends Activity
 	private RelativeLayout appLayout;
 	private ArrayList<Integer> colorList;
 	
-	
 
 	@Override
-	protected void onCreate(Bundle savedInstanceState) {
+	protected void onCreate(Bundle savedInstanceState)
+	{
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_silly);
 		
@@ -33,7 +33,8 @@ public class SillyActivity extends Activity
 		colorList = new ArrayList<Integer>();
 		
 		fillTheColorList();
-		setupListeners();	
+		setupListeners();
+		
 	}
 	
 	public void fillTheColorList()
@@ -52,7 +53,10 @@ public class SillyActivity extends Activity
 			@Override
 			public void onClick(View v)
 			{
-				appLayout.setBackgroundResource(R.color.green);	
+				
+				int randomPosition = (int) (Math.random()*colorList.size());
+				appLayout.setBackgroundResource(colorList.get(randomPosition));
+				appText.setTextColor(colorList.get(randomPosition));				
 			}
 		});
 		
