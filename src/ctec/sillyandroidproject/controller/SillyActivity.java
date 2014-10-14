@@ -11,15 +11,36 @@ import android.widget.Button;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
+/**
+ * Activity/ model of the sillyAndroidProject app
+ * @author Austin Widmeier
+ * @version 1.2 10/14/2014
+ */
 public class SillyActivity extends Activity 
 {
-	
+	/**
+	 * defines Button as appButton
+	 */
 	private Button appButton;
+	
+	/**
+	 * defines text view as appText
+	 */
 	private TextView appText;
+	
+	/**
+	 * defines Relativelayout as appLayout
+	 */
 	private RelativeLayout appLayout;
+	
+	/**
+	 * defines ArrayList as colorList
+	 */
 	private ArrayList<Integer> colorList;
 	
-
+	/**
+	 * when created, gives use of objects
+	 */
 	@Override
 	protected void onCreate(Bundle savedInstanceState)
 	{
@@ -37,6 +58,9 @@ public class SillyActivity extends Activity
 		
 	}
 	
+	/**
+	 * adds created colors to colorList
+	 */
 	public void fillTheColorList()
 	{
 		colorList.add(R.color.green);
@@ -45,6 +69,9 @@ public class SillyActivity extends Activity
 		colorList.add(R.color.otherBlack);
 	}
 	
+	/**
+	 * Listener for button clicks
+	 */
 	private void setupListeners()
 	{
 		appButton.setOnClickListener(new View.OnClickListener()
