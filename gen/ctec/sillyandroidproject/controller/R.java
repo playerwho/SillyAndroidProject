@@ -863,8 +863,8 @@ containing a value of this type.
         public static final int abc_search_url_text_pressed=0x7f070002;
         public static final int abc_search_url_text_selected=0x7f070001;
         public static final int green=0x7f070003;
-        public static final int otherBlack=0x7f070005;
-        public static final int red=0x7f070006;
+        public static final int otherBlack=0x7f070006;
+        public static final int red=0x7f070005;
         public static final int white=0x7f070004;
     }
     public static final class dimen {

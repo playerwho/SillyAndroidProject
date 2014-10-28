@@ -125,8 +125,8 @@ int color abc_search_url_text_normal 0x7f070000
 int color abc_search_url_text_pressed 0x7f070002
 int color abc_search_url_text_selected 0x7f070001
 int color green 0x7f070003
-int color otherBlack 0x7f070005
-int color red 0x7f070006
+int color otherBlack 0x7f070006
+int color red 0x7f070005
 int color white 0x7f070004
 int dimen abc_action_bar_default_height 0x7f080002
 int dimen abc_action_bar_icon_vertical_padding 0x7f080003
