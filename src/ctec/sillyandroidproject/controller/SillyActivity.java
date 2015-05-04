@@ -83,7 +83,7 @@ public class SillyActivity extends Activity
 				
 				int randomPosition = (int) (Math.random()*colorList.size());
 				appLayout.setBackgroundResource(colorList.get(randomPosition));
-				appText.setTextColor(colorList.get(randomPosition));				
+				appText.setTextColor(colorList.get(randomPosition));
 			}
 		});
 		
